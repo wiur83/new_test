@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <meta http-equiv="X-UA-Compatible" conent="ie=edge">
+    <title>Speech recognition app</title>
+</head>
+<body>
+    <div class="login-page-intro">
+        <div class="form-intro">
+            <h1>"<%= result %>" är <%= msg %> svar</h2>
+            <form action="/voice/talk-login" method="GET" class="login-form">
+                <button type="submit">Fortsätt</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

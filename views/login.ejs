@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <meta http-equiv="X-UA-Compatible" conent="ie=edge">
+    <title>Speech recognition app</title>
+</head>
+<body>
+    <div class="login-page-intro">
+        <div class="form-intro">
+            <h2>Logga in</h2>
+            <form action="login" method="POST" class="login-form">
+                <div>
+                    <input type="email" id="email" name="email" placeholder="epost" required>
+                </div>
+                <div>
+                    <input type="password" id="password" name="password" placeholder="lösenord" required>
+                </div>
+                <button type="submit">Logga in</button>
+            </form>
+            <p class="message">Ej registrerad? <a href="register">Skapa ett konto</a></p>
+            <script>console.log(document.cookie);</script>
+        </div>
+    </div>
+</body>
+</html>

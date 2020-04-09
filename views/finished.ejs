@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <meta http-equiv="X-UA-Compatible" conent="ie=edge">
+    <title>Speech recognition app</title>
+</head>
+<body>
+    <div class="login-page-intro">
+        <div class="form-intro">
+            <h1>Test poängen vart: <%= score %> av totalt: <%= total %></h1>
+            <h3>Om du vill köra testet igen, får du gärna pausa några minuter emellan :)</h3>
+                <form action="/voice/restart" method="GET" class="login-form">
+                <button type="submit">Kör igen</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
